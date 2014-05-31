@@ -14,6 +14,7 @@ var trailer = require('gulp-trailer')
 
 http.createServer(function (req, res) {
   res.setHeader('content-type', 'application/zip')
+  res.setHeader('Content-Disposition','attachment; filename=gtfs.zip')
   getGtfsFeed(process.env.REPO)
     .on('data', function (file) {
       res.setHeader('content-length', file.contents.length)
