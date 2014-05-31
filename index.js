@@ -106,7 +106,10 @@ function parseAgency(file, info) {
   info.feed_publisher_name = table.agency_name
   info.feed_publisher_url = table.agency_url
   // [ISO639-1] recommends that language codes be written in lowercase
-  info.feed_lang = table.agency_lang.toLowerCase()
+  // however, google's feed validator insists that it be identical to agency.txt
+  // info.feed_lang = table.agency_lang.toLowerCase()
+  // todo: lowercase the value in agency.txt
+  info.feed_lang = table.agency_lang
   info.feed_id = table.agency_name
 }
 
