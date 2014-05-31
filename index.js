@@ -32,8 +32,7 @@ function getGtfsFeed(repo) {
     feed_lang: 'en',
     feed_start_date: 0,
     feed_end_date: 0,
-    feed_version: 'version' ,
-    feed_id: 'id'
+    feed_version: 'version'
   }
 
   var rev = '-'
