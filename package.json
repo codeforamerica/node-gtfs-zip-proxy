@@ -3,7 +3,9 @@
   "author": "jden <jason@denizac.org>",
   "version": "0.1.0",
   "description": "yep",
-  "keywords": [""],
+  "keywords": [
+    ""
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -14,5 +16,15 @@
   "devDependencies": {
     "chai": "^1.9.1",
     "mocha": "^1.19.0"
+  },
+  "dependencies": {
+    "vinyl-github": "^0.1.1",
+    "gulp-zip": "^0.3.4",
+    "gulp-buffer": "0.0.2",
+    "gulp-filter": "^0.4.1",
+    "binary-csv": "^0.2.0",
+    "through2": "^0.4.2",
+    "vinyl": "^0.2.3",
+    "gulp-trailer": "^0.2.0"
   }
 }
