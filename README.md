@@ -9,7 +9,7 @@ Create a new Github repository to host your GTFS data, e.g. https://github.com/j
 
 ## installation
 
-Requirements: Node.js 0.10 or newer
+Requirements: [Node.js 0.10 or newer](https://github.com/codeforamerica/howto/blob/master/Node.js.md).
 
 Clone this repository and then
 ```console
